@@ -8,10 +8,6 @@ function Greeting() {
   );
 }
 
-export default function App() {
-  return <Greeting/>;
-}
-
 function Goodbye() {
   return (
     <h1 className="goodbye">
@@ -22,4 +18,5 @@ function Goodbye() {
 
 export default function App() {
   return <Goodbye/>;
+  return <Greeting/>;
 }
