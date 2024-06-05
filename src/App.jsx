@@ -1,14 +1,13 @@
-import { createElement } from 'react'
 import './App.css'
 
-function Greeting({ name }) {
+function Greeting() {
   return (
     <h1 className="greeting">
-      Hello <i>{name}</i>. Welcome!
+      Hello. Welcome!
     </h1>
   );
 }
 
 export default function App() {
-  return <Greeting name="Taylor" />;
+  return <Greeting/>;
 }
