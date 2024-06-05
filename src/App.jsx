@@ -6,7 +6,7 @@ const Goodbye = () => {
     <div className='App'>
       <h1>Bye. See Ya!</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Goodbye
