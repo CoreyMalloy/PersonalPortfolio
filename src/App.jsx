@@ -9,4 +9,12 @@ const Goodbye = () => {
   )
 }
 
-export default Goodbye
+const Hello = () => {
+  return (
+    <div className='App'>
+      <h1>Hi. Hello</h1>
+    </div>
+  )
+}
+
+export default {Hello, Goodbye}
