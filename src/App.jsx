@@ -14,13 +14,8 @@ export default function App() {
 
 function Goodbye() {
   return (
-    <h1 className="goodbye">
-      Bye. See Ya!
-    </h1>
+    <div className="goodbye">
+      <h1>Bye. See Ya!</h1>
+    </div>
   );
-}
-
-export default function React() {
-  return <Goodbye/>;
-  return <Greeting/>;
 }
