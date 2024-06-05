@@ -17,4 +17,4 @@ const Hello = () => {
   )
 }
 
-export default {Hello, Goodbye}
+export {Hello, Goodbye}
