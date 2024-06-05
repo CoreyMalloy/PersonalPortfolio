@@ -19,4 +19,4 @@ const Hello = () => {
 
 export {Goodbye, Hello}
 
-export default App
+export default Goodbye
