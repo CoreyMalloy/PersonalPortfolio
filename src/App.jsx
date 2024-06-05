@@ -11,10 +11,12 @@ const Goodbye = () => {
 
 const Hello = () => {
   return (
-    <div className='App'>
+    <div className='NotApp'>
       <h1>Hi. Hello</h1>
     </div>
   )
 }
 
-export {Hello, Goodbye}
+export {Goodbye, Hello}
+
+export default App
