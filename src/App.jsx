@@ -5,15 +5,22 @@ function App() {
   return (
     <>
       <div className='flex items-center justify-center'>
-        <div className='text-left w-1/2 margin'>
-          <h1 className='mb-7 text-3l'><b>Corey Malloy</b></h1>
+        <div className='Navbar'>
+          <ul>
+              <li>
+                <div>hello</div>
+                <div>Craft</div>
+              </li>
+          </ul>
+
+        </div>
           <p className='mb-7'>Hello and welcome to my website!!</p>
           <p>In the past I have worked under a web development entrepreneur to enhance my web development skills</p>
           <div className='flex justify-between'>
             <ul>
               <li>
                 <p className='mb-3'>hello</p>
-                <a href="#">Craft</a><p>student</p>
+                <a href="#">Craft</a>
               </li>
               <li>designer</li>
               <li>programmer</li>
@@ -29,7 +36,6 @@ function App() {
               <li>programmer</li>
             </ul>
           </div>
-        </div>
       </div>
       <div className='flex items-center justify-center'>
         <div className='text-left w-1/2 margin'>
