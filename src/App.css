@@ -9,5 +9,6 @@
 .Navbar{
 }
 .ul{
-  display: inline;
+  display: flex;
+  text-align: justify;
 }
