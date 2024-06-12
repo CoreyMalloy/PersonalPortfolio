@@ -19,6 +19,7 @@ function App() {
           <div>
             <h1>Corey Malloy</h1>
             <p>Web Developer</p>
+            <button>Contact Me</button>
           </div>
         </div>
       </div>
