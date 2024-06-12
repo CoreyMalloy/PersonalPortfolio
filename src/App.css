@@ -58,15 +58,22 @@ body{
   font-size: 50px;
   padding-bottom: 100px;
 }
-.bod a{
+.bod button{
+  width: 150px;
+  height:75px;
   border-radius: 100px;
+  background-color:aquamarine;
+}
+.bod a{
   align-items: center;
+  justify-content: center;
   Height: 75px;
   width: 150px;
   font-size: 20px;
   margin-top: 50px;
   position: relative;
-  background-color: aliceblue;
+  text-decoration: none;
+  color: #333;
 }
 .bod a::after{
   content: "";
@@ -75,12 +82,12 @@ body{
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background-color: white;
+  background-color: #333;
   transform: scaleX(0); 
-  transform-origin: bottom right;
+  transform-origin: bottom ;
   transition: transform 0.3s ease-in-out;
 }
 .bod a:hover::after{
   transform: scaleX(1);
-  transform-origin: bottom left;
+  transform-origin: bottom;
 }
