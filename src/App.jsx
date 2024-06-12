@@ -16,7 +16,7 @@ function App() {
           </div>
         </div>
         <div className='bod'>
-          Corey Malloy
+          <h1>Corey Malloy</h1>
         </div>
       </div>
     </>
