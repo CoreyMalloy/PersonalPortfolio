@@ -19,7 +19,7 @@ function App() {
           <div>
             <h1>Corey Malloy</h1>
             <p>Web Developer</p>
-            <button className='but'>Contact Me</button>
+            <button><a href=''>Contact Me</a></button>
           </div>
         </div>
       </div>
