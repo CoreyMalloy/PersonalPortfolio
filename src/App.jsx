@@ -15,6 +15,9 @@ function App() {
             </ul>
           </div>
         </div>
+        <div className='bod'>
+          Corey Malloy
+        </div>
       </div>
     </>
   )

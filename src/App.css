@@ -6,7 +6,9 @@
 body{
   min-height: 100vh;
 }
-
+.container{
+  background-color: rgb(115, 155, 228);
+}
 .topbar{
   display: flex;
   display: flex;
@@ -28,7 +30,7 @@ body{
   padding-right: 50px;
 }
 .topbar a{
-  color: white;
+  color: rgb(115, 155, 228);
   text-decoration: none;
   position: relative;
 }
