@@ -8,12 +8,10 @@ function App() {
         <div className='topbar'>
           <div className='Navbar'>
             <ul>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">For Agencies</a></li>
-              <li><a href="#">For PPC</a></li>
-              <li><a href="#">Learn</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
 
           </div>

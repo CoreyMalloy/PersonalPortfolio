@@ -30,6 +30,7 @@ body{
   color: white;
   text-decoration: none;
   position: relative;
+  padding-right: 50px;
 }
 .topbar a::after{
   content: "";
