@@ -25,12 +25,12 @@ body{
   justify-content: space-between;
   list-style: none;
   position: relative;
+  padding-right: 50px;
 }
 .topbar a{
   color: white;
   text-decoration: none;
   position: relative;
-  padding-right: 50px;
 }
 .topbar a::after{
   content: "";
