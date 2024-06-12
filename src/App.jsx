@@ -16,12 +16,8 @@ function App() {
           </div>
         </div>
         <div className='bod'>
-          <div>
-            <h1>Corey Malloy</h1>
-          </div>
-          <div>
-            <p>Web Developer</p>
-          </div>
+          <h1>Corey Malloy</h1>
+          <p>Web Developer</p>
         </div>
       </div>
     </>

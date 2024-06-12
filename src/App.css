@@ -49,9 +49,24 @@ body{
 }
 
 .bod{
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   min-height: 75vh;
   font-size: 50px;
+  padding-bottom: 100px;
+}
+.top{
+  padding-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.words{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 1000px;
 }
