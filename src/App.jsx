@@ -4,15 +4,17 @@ function App() {
 
   return (
     <>
-      <div className='flex items-center justify-center'>
-        <div className='Navbar'>
-          <ul>
+      <div className='container'>
+        <div className='topbar'>
+          <div className='Navbar'>
+            <ul>
               <li>
                 <div>hello</div>
                 <div>Craft</div>
               </li>
-          </ul>
+            </ul>
 
+          </div>
         </div>
           <p className='mb-7'>Hello and welcome to my website!!</p>
           <p>In the past I have worked under a web development entrepreneur to enhance my web development skills</p>
