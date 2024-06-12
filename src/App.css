@@ -51,10 +51,36 @@ body{
 }
 
 .bod{
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 75vh;
   font-size: 50px;
   padding-bottom: 100px;
+}
+.bod button{
+  border-radius: 100px;
+  align-items: center;
+  Height: 75px;
+  width: 150px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bod button::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0); 
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+.bod button:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
