@@ -16,7 +16,12 @@ function App() {
           </div>
         </div>
         <div className='bod'>
-          <h1>Corey Malloy</h1>
+          <div>
+            <h1>Corey Malloy</h1>
+          </div>
+          <div>
+            <p>Web Developer</p>
+          </div>
         </div>
       </div>
     </>
