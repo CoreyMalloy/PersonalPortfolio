@@ -39,15 +39,15 @@ body{
   left: 0;
   bottom: -2px;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #333;
   transform: scaleX(0); 
-  transform-origin: bottom right;
+  transform-origin: bottom;
   transition: transform 0.3s ease-in-out;
 }
 .topbar a:hover::after{
   transform: scaleX(1);
-  transform-origin: bottom left;
+  transform-origin: bottom;
 }
 
 .bod{
@@ -59,21 +59,22 @@ body{
   padding-bottom: 100px;
 }
 .bod button{
-  width: 150px;
-  height:75px;
+  width: 200px;
+  height:100px;
   border-radius: 100px;
-  background-color:aquamarine;
+  background-color:transparent;
+  border: transparent;
 }
 .bod a{
   align-items: center;
   justify-content: center;
   Height: 75px;
   width: 150px;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 50px;
   position: relative;
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 .bod a::after{
   content: "";
@@ -82,7 +83,7 @@ body{
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background-color: #333;
+  background-color: white;
   transform: scaleX(0); 
   transform-origin: bottom ;
   transition: transform 0.3s ease-in-out;
