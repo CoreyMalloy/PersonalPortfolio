@@ -1,4 +1,19 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+
+function App() {
+  return (
+    <div className="App">
+
+    </div>
+  );
+}
+
+export default App;
+/*import './App.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -33,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default App*/
