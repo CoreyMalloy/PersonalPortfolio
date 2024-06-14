@@ -6,6 +6,13 @@
     min-height: 100vh;
     font-family: Kanit, sans-serif;
   }
+
+  .main{
+    background-color: blue;
+  }
+  .main{
+    display: flex;
+  }
   .App{
     display: flex;
     flex-wrap: wrap;
