@@ -5,14 +5,20 @@ import './Home.css';
 const Home = () => {
     return (
      <>
-     <div className='container'>
-      <div className='man'>
+      <div>
+        <div className='navbar'>
           <Navbar />
           
-      </div>
-      <div>
-        <h1 className='head'>Home</h1>
-      </div>
+        </div>
+        <div>
+          <div className='bod'>
+          <div>
+            <h1>Corey Malloy</h1>
+            <p>Web Developer</p>
+            <button><a href=''>Contact Me</a></button>
+          </div>
+        </div>
+        </div>
       </div>
     </>
    )
