@@ -6,7 +6,7 @@ body{
   min-height: 100vh;
   font-family: Kanit, sans-serif;
 }
-.topbar{
+.App{
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
@@ -19,7 +19,7 @@ body{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.Navbar ul{
+.App ul{
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -27,13 +27,13 @@ body{
   position: relative;
   padding-right: 50px;
 }
-.topbar a{
+.App a{
   color: #333;
   text-decoration: none;
   position: relative;
   font-size: 30px;
 }
-.topbar a::after{
+.App a::after{
   content: "";
   position: absolute;
   left: 0;
@@ -45,7 +45,7 @@ body{
   transform-origin: bottom;
   transition: transform 0.3s ease-in-out;
 }
-.topbar a:hover::after{
+.App a:hover::after{
   transform: scaleX(1);
   transform-origin: bottom;
 }

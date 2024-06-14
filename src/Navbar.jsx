@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
            <Link to="/about">About</Link>
          </li>
          <li>
-           <Link to="/about">Projects</Link>
+           <Link to="/projects">Projects</Link>
          </li>
          <li>
            <Link to="/contact">Contact</Link>
