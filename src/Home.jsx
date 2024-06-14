@@ -5,9 +5,14 @@ import './Home.css';
 const Home = () => {
     return (
      <>
-      <div>
+     <div className='container'>
+      <div className='man'>
           <Navbar />
-          <h1>Home</h1>
+          
+      </div>
+      <div>
+        <h1 className='head'>Home</h1>
+      </div>
       </div>
     </>
    )
