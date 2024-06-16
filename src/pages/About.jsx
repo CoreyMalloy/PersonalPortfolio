@@ -18,8 +18,8 @@ import './styles/About.css';
        </div>
 
        <div className='exp'>
-        <div>Font-End</div>
-        <div>Back-End</div>
+        <div className='left'>Font-End</div>
+        <div className='right'>Back-End</div>
        </div>
      </div>
    </>
