@@ -6,9 +6,7 @@ body{
     min-height: 100vh;
     font-family: Kanit, sans-serif;
 }
-.container{
-    background-color: blue;
-}
+
 .head{
     font-size: 50px;
 }
