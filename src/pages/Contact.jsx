@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/Contact.css';
 
- const Contact = () => {
+function Contact() {
+  const [val, setVal] = useState("Hello There")
+  const click = () => {
+    alert(val)
+  }
+
+  const change = event => {
+    setVal(event.target.value)
+  }
+
   return (
     <>
-     <div>
-       <div>
-         <h1 className='head'>Contact</h1>
-       </div>
-     </div>
-   </>
+      <div>
+        <h1 className='head'>Contact</h1>
+        <input onChange={change}
+        value = {val}/>
+        <button onClick = {click}>Click Me</button>
+      </div>
+    </>
   )
- }
+}
 
- export default Contact
+export default Contact
