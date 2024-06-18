@@ -17,8 +17,48 @@ import './styles/About.css';
        </div>
 
        <div className='exp'>
-        <div className='left'>Font-End</div>
-        <div className='right'>Back-End</div>
+        <div className='left'>
+          <div className='title-left'>Font-End</div>
+          <div className='card-left'>
+            <ul>
+              <li className="nav-item">
+                <img src=".\images\html2.jpg" class="skill-icon"/>
+              </li>
+              <li className="nav-item">
+                card1
+              </li>
+            </ul>
+            <ul>
+              <li className="nav-item">
+                card1
+              </li>
+              <li className="nav-item">
+                card1
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className='right'>
+          <div className='title-right'>Back-End</div>
+          <div className='card-right'>
+            <ul>
+                <li className="nav-item">
+                  card1
+                </li>
+                <li className="nav-item">
+                  card1
+                </li>
+              </ul>
+              <ul>
+                <li className="nav-item">
+                  card1
+                </li>
+                <li className="nav-item">
+                  <img src='./images/html2.jpg'/>
+                </li>
+              </ul>
+          </div>
+          </div>
        </div>
      </div>
    </>
