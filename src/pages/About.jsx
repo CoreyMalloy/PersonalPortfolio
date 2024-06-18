@@ -7,7 +7,6 @@ import './styles/About.css';
      <div>
        <div className='intro'>
           <h1 className='head'>About Me</h1>
-          <h1>Picture Here</h1>
        </div>
        <div className='bio'>
         I am an aspiring web developer and recent graduate from Cleveland State University with a degree in Computer science and a minor in Mathematics.

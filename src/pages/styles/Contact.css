@@ -42,19 +42,16 @@
     justify-content: center;
 }
 
-.submit button{
+.submit a{
     text-decoration: none;
     position: relative;
     color: white;
-    border-radius: 25px;
     height: 50px;
-    width: 150px;
-    background: transparent;
-    border: transparent;
+    width: 125px;
     font-size: 40px;
 }
 
-.submit button::after{
+.submit a::after{
     content: "";
     position: absolute;
     left: 0;
@@ -67,7 +64,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.submit button:hover::after{
+.submit a:hover::after{
     transform: scaleX(1);
     transform-origin: bottom;
 }
