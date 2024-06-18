@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/About.css';
+import LogoImg from './images/html2.jpg';
+import LogoImg2 from './images/html.png';
 
  const About = () => {
   return (
@@ -21,18 +23,19 @@ import './styles/About.css';
           <div className='title-left'>Font-End</div>
           <div className='card-left'>
             <ul>
-              <li className="nav-item">
-                <img src=".\images\html2.jpg" class="skill-icon"/>
+              <li className="skill-icon">
+                <img src={LogoImg}/>
+                {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
               </li>
-              <li className="nav-item">
+              <li className="skill-icon">
                 card1
               </li>
             </ul>
             <ul>
-              <li className="nav-item">
+              <li className="skill-icon">
                 card1
               </li>
-              <li className="nav-item">
+              <li className="skill-icon">
                 card1
               </li>
             </ul>
@@ -42,19 +45,19 @@ import './styles/About.css';
           <div className='title-right'>Back-End</div>
           <div className='card-right'>
             <ul>
-                <li className="nav-item">
+                <li className="skill-icon">
                   card1
                 </li>
-                <li className="nav-item">
+                <li className="skill-icon">
                   card1
                 </li>
               </ul>
               <ul>
-                <li className="nav-item">
+                <li className="skill-icon">
                   card1
                 </li>
-                <li className="nav-item">
-                  <img src='./images/html2.jpg'/>
+                <li className="skill-icon">
+                  <img src={LogoImg2}/>
                 </li>
               </ul>
           </div>

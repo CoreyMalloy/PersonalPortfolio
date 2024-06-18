@@ -87,5 +87,11 @@
   justify-content: space-evenly;
   height:70%;
   width: 500px;
+  list-style: none;
   border: 2px solid red;
+}
+
+.card-right li{
+  display: flex;
+  flex-direction: column;
 }
