@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './styles/Contact.css';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   let name = "corey";
@@ -9,6 +10,11 @@ function Contact() {
     name = document.getElementById("name").value
     message = document.getElementById("message").value
     // alert(name.value + message.value)
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_tu2qzbr', 'template_id', e.target, 'public_key');
   }
    
   return (
@@ -26,7 +32,7 @@ function Contact() {
           <textarea className='message-box' type='text' name='message' id='message'placeholder='Message'></textarea>
         </div>
         <div className='submit'>
-          <a href={`mailto:Corey_8381@outlook.com?subject=Hi Corey&body=${message} - ${name}!`}>Submit</a>
+          <a href={`mailto:Corey_8381@outlook.com?subject=Website Message Corey&body=${message} - ${name}!`}>Submit</a>
         </div>
       </div> 
     </>
