@@ -23,10 +23,12 @@ import LogoImg2 from './images/html.png';
           <div className='title-left'>Font-End</div>
           <div className='card-left'>
             <ul>
+              <div className='logo1'>
               <li className="skill-icon">
-                <img src={LogoImg}/>
+                <img className='html' src={LogoImg}/>
                 {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
               </li>
+              </div>
               <li className="skill-icon">
                 card1
               </li>
@@ -56,9 +58,12 @@ import LogoImg2 from './images/html.png';
                 <li className="skill-icon">
                   card1
                 </li>
-                <li className="skill-icon">
-                  <img src={LogoImg2}/>
-                </li>
+                <div className='logo2'>
+                  <li className="skill-icon">
+                    <img className='html' src={LogoImg2}/>
+                    {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
+                  </li>
+              </div>
               </ul>
           </div>
           </div>

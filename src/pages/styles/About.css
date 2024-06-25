@@ -61,6 +61,7 @@
   height:70%;
   width: 500px;
   border: 2px solid red;
+  background-color: transparent;
 }
 
 .card-left li{
@@ -94,4 +95,22 @@
 .card-right li{
   display: flex;
   flex-direction: column;
+}
+
+.logo1{
+  border: 2px solid red;
+  mix-blend-mode: lighten;
+  background-size: cover;
+}
+.logo1 img{
+  mix-blend-mode: lighten;
+}
+
+.logo2{
+  border: 2px solid red;
+  mix-blend-mode: multiply;
+  background-size: cover;
+}
+.logo1 img{
+  mix-blend-mode: lighten;
 }
