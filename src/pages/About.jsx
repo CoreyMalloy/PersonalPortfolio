@@ -1,7 +1,10 @@
 import React from 'react';
 import './styles/About.css';
-import LogoImg2 from './images/html2.png';
 import logoimg from './images/bootstrap.png';
+import LogoImg2 from './images/html2.png';
+import logoimg3 from './images/css.png';
+import logoimg4 from './images/sass.png';
+import logoimg5 from './images/react.png';
 
 
  const About = () => {
@@ -34,10 +37,18 @@ import logoimg from './images/bootstrap.png';
             </ul>
             <ul>
               <li className="skill-icon">
-                card1
+                <img className='html' src={logoimg3}/>
               </li>
               <li className="skill-icon">
-                card1
+                <img className='html' src={logoimg4}/>
+              </li>
+            </ul>
+            <ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg5}/>
+              </li>
+              <li className="skill-icon">
+                
               </li>
             </ul>
           </div>
