@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/About.css';
-import LogoImg from './images/html2.jpg';
-import LogoImg2 from './images/html.png';
+import LogoImg2 from './images/html2.png';
+import logoimg from './images/bootstrap.png';
+
 
  const About = () => {
   return (
@@ -23,14 +24,12 @@ import LogoImg2 from './images/html.png';
           <div className='title-left'>Font-End</div>
           <div className='card-left'>
             <ul>
-              <div className='logo1'>
               <li className="skill-icon">
-                <img className='html' src={LogoImg}/>
+                <img className='html' src={LogoImg2}/>
                 {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
               </li>
-              </div>
               <li className="skill-icon">
-                card1
+                <img className='html' src={logoimg}/>
               </li>
             </ul>
             <ul>
@@ -58,12 +57,9 @@ import LogoImg2 from './images/html.png';
                 <li className="skill-icon">
                   card1
                 </li>
-                <div className='logo2'>
-                  <li className="skill-icon">
-                    <img className='html' src={LogoImg2}/>
-                    {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
-                  </li>
-              </div>
+                <li className="skill-icon">
+                  card1
+                </li>
               </ul>
           </div>
           </div>
