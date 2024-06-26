@@ -5,6 +5,12 @@ import LogoImg2 from './images/html2.png';
 import logoimg3 from './images/css.png';
 import logoimg4 from './images/sass.png';
 import logoimg5 from './images/react.png';
+import logoimg6 from './images/wordpress.png';
+import logoimg7 from './images/nestjs.png';
+import logoimg8 from './images/firebase.png';
+import logoimg9 from './images/django.png';
+import logoimg10 from './images/sql.png';
+import logoimg11 from './images/postman.png';
 
 
  const About = () => {
@@ -29,7 +35,6 @@ import logoimg5 from './images/react.png';
             <ul>
               <li className="skill-icon">
                 <img className='html' src={LogoImg2}/>
-                {/* <img src=".\images\html.png" alt='htmlpic' class="skill-icon"/> */}
               </li>
               <li className="skill-icon">
                 <img className='html' src={logoimg}/>
@@ -48,7 +53,7 @@ import logoimg5 from './images/react.png';
                 <img className='html' src={logoimg5}/>
               </li>
               <li className="skill-icon">
-                
+              <img className='html' src={logoimg6}/>
               </li>
             </ul>
           </div>
@@ -56,25 +61,64 @@ import logoimg5 from './images/react.png';
         <div className='right'>
           <div className='title-right'>Back-End</div>
           <div className='card-right'>
+          <ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg7}/>
+              </li>
+              {/* nestjs */}
+              <li className="skill-icon">
+                <img className='html' src={logoimg8}/>
+              </li>
+              {/* Firebase */}
+            </ul>
             <ul>
-                <li className="skill-icon">
-                  card1
-                </li>
-                <li className="skill-icon">
-                  card1
-                </li>
-              </ul>
-              <ul>
-                <li className="skill-icon">
-                  card1
-                </li>
-                <li className="skill-icon">
-                  card1
-                </li>
-              </ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg11}/>
+              {/* django */}
+              </li>
+              <li className="skill-icon">
+                <img className='html' src={logoimg10}/>
+              </li>
+              {/* SQL */}
+            </ul>
+            <ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg9}/>
+              </li>
+              <li className="skill-icon">
+                {/* postman */}
+              </li>
+            </ul>
           </div>
-          </div>
+          
+        </div>
+        
        </div>
+       <div className='lang'>
+            <div className='title'>
+              Languages
+            </div>
+            <ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg7}/>
+              </li>
+              {/* nestjs */}
+              <li className="skill-icon">
+                <img className='html' src={logoimg8}/>
+              </li>
+              {/* Firebase */}
+            </ul>
+            <ul>
+              <li className="skill-icon">
+                <img className='html' src={logoimg11}/>
+              {/* django */}
+              </li>
+              <li className="skill-icon">
+                <img className='html' src={logoimg10}/>
+              </li>
+              {/* SQL */}
+            </ul>
+          </div>
      </div>
    </>
   )
