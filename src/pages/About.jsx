@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/About.css';
-import logoimg from './images/bootstrap.png';
+import logoimg from './images/JavaScript.png';
 import logoimg2 from './images/html2.png';
 import logoimg3 from './images/css.png';
 import logoimg4 from './images/sass.png';
@@ -17,8 +17,8 @@ import logoimg12 from './images/java.png';
 import logoimg13 from './images/python.png';
 import logoimg14 from './images/C.png';
 import logoimg15 from './images/c++.png';
-
-
+import logoimg16 from './images/bootstrap.png';
+import logoimg17 from './images/tail.png';
 
  const About = () => {
   return (
@@ -44,10 +44,10 @@ import logoimg15 from './images/c++.png';
                 <img className='html' src={logoimg2}/>
               </li>
               <li className="skill-icon">
-                <img className='html' src={logoimg}/>
+                <img className='html' src={logoimg13}/>
               </li>
               <li className="skill-icon">
-                <img className='html' src={logoimg}/>
+                <img className='html' src={logoimg15}/>
               </li>
             </ul>
             <ul>
@@ -55,15 +55,15 @@ import logoimg15 from './images/c++.png';
                 <img className='html' src={logoimg3}/>
               </li>
               <li className="skill-icon">
-                <img className='html' src={logoimg4}/>
+                <img className='html' src={logoimg12}/>
               </li>
             </ul>
             <ul>
               <li className="skill-icon">
-                <img className='html' src={logoimg5}/>
+                <img className='html' src={logoimg}/>
               </li>
               <li className="skill-icon">
-              <img className='html' src={logoimg6}/>
+              <img className='html' src={logoimg14}/>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ import logoimg15 from './images/c++.png';
           <div className='card-right'>
           <ul>
               <li className="skill-icon">
-                <img className='html' src={logoimg7}/>
+                <img className='html' src={logoimg6}/>
               </li>
               <li className="skill-icon">
                 <img className='html' src={logoimg8}/>
@@ -94,8 +94,7 @@ import logoimg15 from './images/c++.png';
               <li className="skill-icon">
               </li>
             </ul>
-          </div>
-          
+          </div> 
         </div>
         
        </div>
@@ -103,22 +102,29 @@ import logoimg15 from './images/c++.png';
         <div className='lang'>
               <div className='title'>Libraries/Frameworks</div>
               <div className='list'>
-              <ul>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg12}/>
-                </li>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg13}/>
-                </li>
-              </ul>
-              <ul>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg14}/>
-                </li>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg15}/>
-                </li>
-              </ul>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg4}/>
+                  </li>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg5}/>
+                  </li>
+                </ul>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg7}/>
+                  </li>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg16}/>
+                  </li>
+                </ul>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg17}/>
+                  </li>
+                  <li className="skill-icon">
+                  </li>
+                </ul>
               </div>
             </div>
         </div>
