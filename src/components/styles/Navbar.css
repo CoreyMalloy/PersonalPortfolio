@@ -18,6 +18,10 @@
     color: #333;
 }
 
+.nav-item:last-of-type{
+    margin-right: 25px;
+}
+
 .nav-item > *::after{
     content: "";
     position: absolute;
