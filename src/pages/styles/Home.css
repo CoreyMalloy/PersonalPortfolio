@@ -48,7 +48,7 @@ body{
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: aquamarine;
     transform: scaleX(0); 
     transform-origin: bottom ;
     transition: transform 0.3s ease-in-out;

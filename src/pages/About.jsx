@@ -1,16 +1,23 @@
 import React from 'react';
 import './styles/About.css';
 import logoimg from './images/bootstrap.png';
-import LogoImg2 from './images/html2.png';
+import logoimg2 from './images/html2.png';
 import logoimg3 from './images/css.png';
 import logoimg4 from './images/sass.png';
 import logoimg5 from './images/react.png';
 import logoimg6 from './images/wordpress.png';
+
 import logoimg7 from './images/nestjs.png';
 import logoimg8 from './images/firebase.png';
 import logoimg9 from './images/django.png';
 import logoimg10 from './images/sql.png';
 import logoimg11 from './images/postman.png';
+
+import logoimg12 from './images/java.png';
+import logoimg13 from './images/python.png';
+import logoimg14 from './images/C.png';
+import logoimg15 from './images/c++.png';
+
 
 
  const About = () => {
@@ -30,11 +37,14 @@ import logoimg11 from './images/postman.png';
 
        <div className='exp'>
         <div className='left'>
-          <div className='title-left'>Font-End</div>
+          <div className='title-left'>Languages</div>
           <div className='card-left'>
             <ul>
               <li className="skill-icon">
-                <img className='html' src={LogoImg2}/>
+                <img className='html' src={logoimg2}/>
+              </li>
+              <li className="skill-icon">
+                <img className='html' src={logoimg}/>
               </li>
               <li className="skill-icon">
                 <img className='html' src={logoimg}/>
@@ -59,34 +69,29 @@ import logoimg11 from './images/postman.png';
           </div>
         </div>
         <div className='right'>
-          <div className='title-right'>Back-End</div>
+          <div className='title-right'>Services</div>
           <div className='card-right'>
           <ul>
               <li className="skill-icon">
                 <img className='html' src={logoimg7}/>
               </li>
-              {/* nestjs */}
               <li className="skill-icon">
                 <img className='html' src={logoimg8}/>
               </li>
-              {/* Firebase */}
             </ul>
             <ul>
               <li className="skill-icon">
                 <img className='html' src={logoimg11}/>
-              {/* django */}
               </li>
               <li className="skill-icon">
                 <img className='html' src={logoimg10}/>
               </li>
-              {/* SQL */}
             </ul>
             <ul>
               <li className="skill-icon">
                 <img className='html' src={logoimg9}/>
               </li>
               <li className="skill-icon">
-                {/* postman */}
               </li>
             </ul>
           </div>
@@ -94,31 +99,29 @@ import logoimg11 from './images/postman.png';
         </div>
         
        </div>
-       <div className='lang'>
-            <div className='title'>
-              Languages
+       <div className='cont'>
+        <div className='lang'>
+              <div className='title'>Libraries/Frameworks</div>
+              <div className='list'>
+              <ul>
+                <li className="skill-icon">
+                  <img className='html' src={logoimg12}/>
+                </li>
+                <li className="skill-icon">
+                  <img className='html' src={logoimg13}/>
+                </li>
+              </ul>
+              <ul>
+                <li className="skill-icon">
+                  <img className='html' src={logoimg14}/>
+                </li>
+                <li className="skill-icon">
+                  <img className='html' src={logoimg15}/>
+                </li>
+              </ul>
+              </div>
             </div>
-            <ul>
-              <li className="skill-icon">
-                <img className='html' src={logoimg7}/>
-              </li>
-              {/* nestjs */}
-              <li className="skill-icon">
-                <img className='html' src={logoimg8}/>
-              </li>
-              {/* Firebase */}
-            </ul>
-            <ul>
-              <li className="skill-icon">
-                <img className='html' src={logoimg11}/>
-              {/* django */}
-              </li>
-              <li className="skill-icon">
-                <img className='html' src={logoimg10}/>
-              </li>
-              {/* SQL */}
-            </ul>
-          </div>
+        </div>
      </div>
    </>
   )
