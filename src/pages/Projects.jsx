@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Projects.css';
+import trading from './images/tradingbot.jpg';
 
  const Projects = () => {
   return (
@@ -11,19 +12,20 @@ import './styles/Projects.css';
     </div>
        <div className='proj-list'>
           <ul>
-            <li className="skill-icon">
-              Card1
+            <li className="proj">
+              <button><a href='https://github.com/CoreyMalloy/tradingBot'><img className='trading' src={trading}/></a></button>
+              <h2>AI-Trading Bot</h2>
             </li>
-            <li className="skill-icon">
-              card1
+            <li className="proj">
+              Discord Bot
             </li>
           </ul>
           <ul>
-            <li className="skill-icon">
-              card1
+            <li className="proj">
+              Django CRUD application
             </li>
-            <li className="skill-icon">
-              card1
+            <li className="proj">
+              
             </li>
           </ul>
        </div>

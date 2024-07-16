@@ -34,7 +34,7 @@ import logoimg17 from './images/tail.png';
         While my professional experience is focused towards web development, my academic journey equipped me with a multitude of skills within software development.
         Recently I have been trying to expand my horizon by developing CRUD applications using python and SQL.
        </div>
-        <div className='skills'>Known Skills</div>
+        <div className='skills'>Skills</div>
        <div className='exp'>
        
         <div className='left'>
