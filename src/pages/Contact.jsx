@@ -32,7 +32,7 @@ function Contact() {
           <textarea className='message-box' type='text' name='message' id='message'placeholder='Message'></textarea>
         </div>
         <div className='submit'>
-          <a href={`mailto:Corey_8381@outlook.com?subject=Website Message Corey&body=${message} - ${name}!`}>Submit</a>
+          <a href={`mailto:Corey_8381@outlook.com?subject=Website Message &body=${message} - ${name}!`}>Submit</a>
         </div>
       </div> 
     </>
