@@ -6,15 +6,21 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/about', element: <About /> },
+  { path: '/projects', element: <Projects /> },
+  { path: '/contact', element: <Contact /> }
+];
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>}><Redirect to="/" /></Route>
-        <Route path='/about' element={<About/>}><Redirect to="/" /></Route>
-        <Route path='/projects' element={<Projects/>}><Redirect to="/" /></Route>
-        <Route path='/contact' element={<Contact/>}><Redirect to="/" /></Route>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
       </Routes>
     </div>
   );
