@@ -9,7 +9,7 @@ const Home = () => {
           <div className='bod'>
           <div>
             <h1>Corey Malloy</h1>
-            <p>Web Developer</p>
+            <p>Web Developer | Software Developer</p>
             <div className='buts'>
               <button><a href='/About'>Learn More</a></button>
               <button><a href='/Contact'>Contact Me</a></button>
