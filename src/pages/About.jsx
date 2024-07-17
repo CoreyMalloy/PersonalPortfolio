@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/About.css';
-import logoimg from './images/JavaScript.png';
+import logoimg from './images/javs.png';
 import logoimg2 from './images/html2.png';
 import logoimg3 from './images/css.png';
 import logoimg4 from './images/sass.png';
