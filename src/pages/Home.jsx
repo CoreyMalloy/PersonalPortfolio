@@ -11,8 +11,8 @@ const Home = () => {
             <h1>Corey Malloy</h1>
             <p>Web Developer | Software Developer</p>
             <div className='buts'>
-              <button><a href='/About'>Learn More</a></button>
-              <button><a href='/Contact'>Contact Me</a></button>
+              <button><a href='/about'>Learn More</a></button>
+              <button><a href='/contact'>Contact Me</a></button>
             </div>
           </div>
         </div>
