@@ -153,8 +153,8 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-  [class*=] {
+@media only screen and (max-width: 320px) {
+  [class*='exp'] {
     width: 100%;
   }
 }
