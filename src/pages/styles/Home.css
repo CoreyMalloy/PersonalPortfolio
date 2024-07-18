@@ -44,6 +44,7 @@ body{
     background-color: #5c5b5bc5;
     border: none;
     box-shadow: 2px 2px 15px #131313;
+    text-decoration: none;
   }
   .buts button:hover{
     box-shadow: 1px 0px 15px #e9e9e9e2;
@@ -58,4 +59,8 @@ body{
     position: relative;
     text-decoration: none;
     color: white;
+  }
+
+  .buts Link {
+    text-decoration: none;
   }

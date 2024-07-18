@@ -12,8 +12,8 @@ const Home = () => {
             <h1>Corey Malloy</h1>
             <p>Web Developer | Software Developer</p>
             <div className='buts'>
-              <button><Link to="/about">Learn More</Link></button>
-              <button><Link to="/contact">Contact Me</Link></button>
+              <button><Link to="/about" style={{ textDecoration: 'none', color: 'white' }}>Learn More</Link></button>
+              <button><Link to="/contact" style={{ textDecoration: 'none', color: '#131313' }}>Contact Me</Link></button>
             </div>
           </div>
         </div>
