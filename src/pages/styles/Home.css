@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .buts button:last-of-type a{
