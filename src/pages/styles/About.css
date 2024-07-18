@@ -153,8 +153,51 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 320px) {
-  * {
+@media only screen and (max-width: 480px) {
+  .intro{
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .head{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .bio{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skills{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .exp{
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .left{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title-left{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-left{
+    width: 10%;
   }
 }
