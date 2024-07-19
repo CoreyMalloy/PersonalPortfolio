@@ -35,3 +35,21 @@
     opacity: .5;
     background-color: black;
   }
+
+  @media (max-width: 480px) {
+    .proj-list {
+      flex-direction: column;
+      width: 90%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  
+    .proj-list li {
+      margin-bottom: 20px;
+    }
+  
+    .proj img {
+      width: 100%;
+      height: auto;
+    }
+  }
