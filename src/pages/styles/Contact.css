@@ -69,3 +69,41 @@
     transform: scaleX(1);
     transform-origin: bottom;
 }
+
+@media (max-width: 480px) {
+    .header {
+      font-size: 30px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .name {
+      min-height: 30px;
+    }
+  
+    .name input {
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .message {
+      min-height: 150px;
+      padding: 10px;
+    }
+  
+    .message textarea {
+      font-size: 20px;
+      height: 150px;
+      width: 90%;
+    }
+  
+    .submit {
+      height: 10vh;
+    }
+  
+    .submit a {
+      font-size: 25px;
+      height: 40px;
+      width: 100px;
+    }
+  }
