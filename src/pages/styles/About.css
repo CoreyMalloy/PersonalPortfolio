@@ -1,129 +1,120 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.intro{
+.intro {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  margin: 50px auto 40px;
   height: 30vh;
   width: 75%;
 }
 
-.head{
+.head {
   font-size: 75px;
 }
 
-.bio{
+.bio {
   width: 75%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
   padding-bottom: 50px;
   font-size: 30px;
   border-bottom: 2px solid aquamarine;
 }
 
-.skills{
+.skills {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  margin: 100px auto;
   font-size: 75px;
   height: 15vh;
   width: 75%;
 }
 
-.exp{
+.exp {
   display: flex;
   justify-content: space-around;
   height: 50vh;
   margin-top: 50px;
 }
 
-.exp div{
+.exp div {
   font-size: 50px;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: column;
-  width:35%;
+  width: 35%;
   justify-content: center;
   align-items: center;
   margin-left: 100px;
 }
 
-.title-left{
+.title-left {
   margin-bottom: 40px;
   border-bottom: 2px solid white;
 }
 
-.card-left{
-  display:flex;
+.card-left {
+  display: flex;
   justify-content: space-evenly;
-  height:70%;
+  height: 70%;
   width: 500px;
-  
 }
 
-.card-left li{
+.card-left li {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.right{
+.right {
   display: flex;
   flex-direction: column;
-  width:35%;
+  width: 35%;
   justify-content: center;
   align-items: center;
   margin-right: 100px;
 }
 
-.title-right{
+.title-right {
   margin-bottom: 40px;
   border-bottom: 2px solid white;
 }
 
-.card-right{
-  display:flex;
+.card-right {
+  display: flex;
   justify-content: space-evenly;
-  height:70%;
+  height: 70%;
   width: 500px;
   list-style: none;
 }
 
-.card-right li{
+.card-right li {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.skill-icon img{
+.skill-icon img {
   height: 75px;
   margin-top: 40px;
 }
 
-.cont{
+.cont {
   display: flex;
   justify-content: center;
   height: 50vh;
   list-style: none;
 }
 
-.lang{
+.lang {
   font-size: 50px;
   justify-content: center;
   align-items: center;
@@ -131,30 +122,34 @@
   list-style: none;
 }
 
-.list{
+.list {
   display: flex;
   justify-content: space-around;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
 }
-.list ul{
+
+.list ul {
   display: flex;
   flex-direction: column;
   list-style: none;
   align-items: center;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-bottom: 2px solid white;
   width: 100%;
 }
 
+/* Media queries for screens smaller than 480px */
 @media screen and (max-width: 480px) {
-  .intro, .bio, .skills, .exp, .cont {
+  .intro,
+  .bio,
+  .skills,
+  .exp,
+  .cont {
     padding: 10px;
   }
 
@@ -166,11 +161,15 @@
     font-size: 0.9em;
   }
 
-  .title-left, .title-right, .title {
+  .title-left,
+  .title-right,
+  .title {
     font-size: 1.2em;
   }
 
-  .card-left, .card-right, .list {
+  .card-left,
+  .card-right,
+  .list {
     display: block;
   }
 
