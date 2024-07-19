@@ -42,18 +42,17 @@
 
 @media (max-width: 480px) {
     .nav-container {
-      flex-direction: column;
-      align-items: flex-start;
       padding: 10px;
+      justify-content: space-between;
     }
   
     .nav-item {
       padding: 10px;
       font-size: 20px;
-      margin-right: 0;
+      margin-right: 15px; /* Reduce margin to fit better */
     }
   
     .nav-item:last-of-type {
-      margin-right: 0;
+      margin-right: 15px;
     }
   }
