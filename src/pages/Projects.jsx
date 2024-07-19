@@ -26,7 +26,6 @@ import discord from './images/discord.jpg';
           </ul>
           <ul>
             <li className="proj">
-          
             <button><a href='https://github.com/CoreyMalloy/CRUD'><img className='crud' src={crud}/></a></button>
               <h2>Django CRUD application</h2>
             </li>
