@@ -26,7 +26,7 @@ import discord from './images/discord.jpg';
           </ul>
           <ul>
             <li className="proj">
-            <button><a href='https://github.com/CoreyMalloy/CRUD2'><img className='crud' src={crud}/></a></button>
+              <button><a href='https://github.com/CoreyMalloy/CRUD2'><img className='crud' src={crud}/></a></button>
               <h2>React/Python CRUD application</h2>
             </li>
             <li className="proj">
