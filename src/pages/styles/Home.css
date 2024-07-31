@@ -79,13 +79,13 @@ body{
   }
 
   .buts {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 10%;
   }
 
   .buts button {
-    width: 150px;
-    height: 75px;
+    width: 100px;
+    height: 50px;
     font-size: 20px;
     margin-top: 20px;
     box-shadow: 1px 1px 10px #131313;
