@@ -75,6 +75,8 @@ body{
     font-size: 25px;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
     padding: 0px 10px 10px 10px;
     height: 100vh;
