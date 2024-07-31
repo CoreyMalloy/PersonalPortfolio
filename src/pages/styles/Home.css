@@ -76,7 +76,7 @@ body{
     flex-direction: column;
     text-align: center;
     padding: 10px;
-    height: 100vh;
+    height: 75vh;
   }
 
   .buts {
@@ -85,8 +85,8 @@ body{
   }
 
   .buts button {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     font-size: 20px;
     margin-top: 20px;
     box-shadow: 1px 1px 10px #131313;
