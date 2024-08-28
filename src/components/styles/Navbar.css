@@ -3,19 +3,19 @@
     justify-content: end;
     align-items: center;
     flex-direction: row;
-    background-color: aquamarine;
+    background-color: #00ABE4;
 }
 .nav-item{
-    padding: 15px;
+    padding: 15px 25px 15px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 .nav-item > *{
     text-decoration: none;
     position: relative;
-    color: #333;
+    color: #E9F1FA;
 }
 
 .nav-item:last-of-type{
@@ -29,7 +29,7 @@
     bottom: -2px;
     width: 100%;
     height: 3px;
-    background-color: #333;
+    background-color: #E9F1FA;
     transform: scaleX(0); 
     transform-origin: bottom;
     transition: transform 0.3s ease-in-out;

@@ -20,7 +20,7 @@
 
 .name input{
     font-size: 30px;
-    font-family: Kanit, sans-serif;
+    font-family: Inter;
 }
 
 .message{
@@ -30,7 +30,7 @@
     justify-content: center;
 }
 .message textarea{
-    font-family: Kanit, sans-serif;
+    font-family: Kanit, Inter;
     font-size: 30px;
     height: 225px;
     width: 550px;
@@ -46,7 +46,7 @@
 .submit a{
     text-decoration: none;
     position: relative;
-    color: white;
+    color: #2E3944;
     height: 50px;
     width: 125px;
     font-size: 40px;
@@ -59,7 +59,7 @@
     bottom: -2px;
     width: 100%;
     height: 3px;
-    background-color: aquamarine;
+    background-color: #2E3944;
     transform: scaleX(0); 
     transform-origin: bottom;
     transition: transform 0.3s ease-in-out;

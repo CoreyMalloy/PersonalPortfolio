@@ -4,7 +4,7 @@
   }
 body{
     min-height: 100vh;
-    font-family: Kanit, sans-serif;
+    font-family: Inter;
 }
 
 .head{
@@ -21,17 +21,19 @@ body{
 
 .buts{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 5%;
+  justify-content: left;
+  align-items: Left;
+  margin-top: 5%; 
 }
 
 .buts button:last-of-type a{
-  color: #333;
+  color: #E9F1FA;
 }
 
 .buts button:last-of-type{
-  background-color: aquamarine;
+  background-color: #00ABE4;
+  box-shadow: 1px 1px 5px #131313;
+  margin-left: 100px;
 }
 
 .buts button{
@@ -41,9 +43,8 @@ body{
   width: 200px;
   height:100px;
   border-radius: 30px;
-  background-color: #5c5b5bc5;
+  background-color: transparent;
   border: none;
-  box-shadow: 2px 2px 15px #131313;
   text-decoration: none;
 }
 .buts button:hover{
@@ -58,7 +59,7 @@ body{
   margin-top: 50px;
   position: relative;
   text-decoration: none;
-  color: white;
+  color: #2E3944;
 }
 
 .buts Link {
