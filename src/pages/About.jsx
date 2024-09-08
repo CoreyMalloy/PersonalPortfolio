@@ -28,7 +28,7 @@ import logoimg17 from './images/tail.png';
       <div className='bio'>
         <div className='bio-description'>
           I am an aspiring web developer with a degree in Computer science and a minor in Mathematics from Cleveland State University.
-          I have previous professional experience in web development using technologies such as Angular, NestJS, and Firebase.
+          I have previous professional experience in web development.
           My academic journey equipped me with a multitude of skills within software development and not just web development.
           Recently I have been trying to expand my horizon into other aspects of development.
         </div>
