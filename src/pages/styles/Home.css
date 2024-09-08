@@ -12,7 +12,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-left: auto;
+  margin-left: 10rem;
   margin-right: auto;
   padding: 4rem;
 }
@@ -20,11 +20,12 @@
 .home-content{
   display: flex;
   flex-direction: column;
+  margin-left: 5rem;
 }
 
 .home-content-title{
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 300;
   
 }
 
@@ -34,8 +35,9 @@
 
 .home-content-description{
   font-size: 4rem;
-  font-weight: 800;
-  width: 65%;
+  font-weight: 500;
+  width: 90%;
+  
 }
 
 .home-content-buttons{
