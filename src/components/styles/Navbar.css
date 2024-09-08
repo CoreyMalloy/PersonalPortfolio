@@ -1,21 +1,19 @@
 .nav-container{
     display: flex;
-    justify-content: end;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    background-color: #00ABE4;
 }
 .nav-item{
-    padding: 15px 25px 15px 25px;
+    padding: 15px 15px 15px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 28px;
 }
 .nav-item > *{
     text-decoration: none;
     position: relative;
-    color: #E9F1FA;
 }
 
 .nav-item:last-of-type{
@@ -29,7 +27,6 @@
     bottom: -2px;
     width: 100%;
     height: 3px;
-    background-color: #E9F1FA;
     transform: scaleX(0); 
     transform-origin: bottom;
     transition: transform 0.3s ease-in-out;
