@@ -8,9 +8,9 @@ import discord from './images/discord.jpg';
  const Projects = () => {
   return (
     <>
-     <div className='intro'>
+     <div className='projects-title'>
       <div>
-        <h1 className='head'>Projects</h1>
+          <h1 className='project-head'>Projects</h1>
       </div>
     </div>
        <div className='proj-list'>
