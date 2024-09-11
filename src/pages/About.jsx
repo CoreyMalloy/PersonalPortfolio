@@ -27,9 +27,9 @@ import logoimg17 from './images/tail.png';
       <h6 className='head'>About Me</h6>
       <div className='bio'>
         <div className='bio-description'>
-          I am an aspiring web developer with a degree in Computer science and a minor in Mathematics from Cleveland State University.
+          I am an aspiring developer with a degree in Computer science and a minor in Mathematics from Cleveland State University.
           I have previous professional experience in web development.
-          My academic journey equipped me with a multitude of skills within software development and not just web development.
+          My academic journey equipped me with a multitude of skills within software development.
           Recently I have been trying to expand my horizon into other aspects of development.
         </div>
       </div>
