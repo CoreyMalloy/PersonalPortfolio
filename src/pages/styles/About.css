@@ -172,14 +172,14 @@
   }
 
   .second-container {
-    width: 90%;
+    width: 100%;
     font-size: 20px;
     margin: 20px auto;
   }
 
   .second-container-description{
     width: 100%;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .skills {
