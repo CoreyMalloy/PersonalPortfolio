@@ -97,6 +97,10 @@
     font-size: 1rem;
   }
 
+  .third-container-wrapper{
+    height: 160vh;
+  }
+
   .skills {
     font-size: 40px;
     height: auto;
