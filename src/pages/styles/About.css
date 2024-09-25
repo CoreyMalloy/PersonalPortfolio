@@ -89,7 +89,7 @@
   .second-container {
     width: 100%;
     font-size: 20px;
-    height: 50vh
+    line-height: 1rem;
   }
 
   .second-container-description{
