@@ -177,6 +177,11 @@
     margin: 20px auto;
   }
 
+  .second-container-description{
+    width: 100%;
+    font-size: 2rem;
+  }
+
   .skills {
     font-size: 40px;
     height: auto;
