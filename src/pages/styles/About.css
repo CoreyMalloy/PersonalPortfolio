@@ -31,126 +31,41 @@
 
 .third-container-wrapper{
   background-color: #E9F1FA;
+  height: 120vh;
 }
 
-.skills {
+.skills-title {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding-top: 4rem;
-  font-size: 75px;
+  font-size: 6rem;
   width: 10%;
 }
 
-.exp {
+.skills-displayed {
   display: flex;
   justify-content: space-around;
-  height: 50vh;
-  margin-top: 50px;
-}
-
-.exp div {
-  font-size: 50px;
-}
-
-.left {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.title-left {
-  margin-bottom: 40px;
-  border-bottom: 2px solid rgb(53, 52, 52);
-}
-
-.card-left {
-  display: flex;
-  justify-content: space-evenly;
-  height: 70%;
-  width: 500px;
-}
-
-.card-left li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  justify-content: center;
-  align-items: center;
-  margin-right: 100px;
-}
-
-.title-right {
-  margin-bottom: 40px;
-  border-bottom: 2px solid rgb(53, 52, 52);
-}
-
-.card-right {
-  display: flex;
-  justify-content: space-evenly;
-  height: 70%;
-  width: 500px;
+  text-decoration: none;
   list-style: none;
 }
 
-.card-right li {
+.skill-icon{
+  height: 6rem;
+  margin-top: 4rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .skill-icon img {
   height: 75px;
-  margin-top: 40px;
-}
-
-.cont {
+  margin-top: 4rem;
   display: flex;
-  justify-content: center;
-  height: 50vh;
-  list-style: none;
-}
-
-.lang {
-  font-size: 50px;
-  justify-content: center;
   align-items: center;
-  width: 500px;
-  list-style: none;
-}
-
-.list {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 20px;
-}
-
-.list ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  align-items: center;
-}
-
-.title {
-  display: flex;
   justify-content: center;
-  margin: 0 auto;
-  border-bottom: 2px solid rgb(53, 52, 52);
-  width: 100%;
 }
 
 @media (max-width: 480px) {
