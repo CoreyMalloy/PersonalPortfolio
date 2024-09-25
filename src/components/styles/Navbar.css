@@ -37,7 +37,7 @@
 
 @media (max-width: 480px) {
     .nav-container {
-      justify-content: space-between;
+      justify-content: left;
     }
   
     .nav-item {
