@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.bio {
+.second-container {
   display: flex;
   background-color: #00ABE4;;
   color: #E9F1FA;
@@ -25,11 +25,11 @@
   font-size: 2rem;
 }
 
-.bio-description{
+.second-container-description{
   width: 65%;
 }
 
-.third-section-wrapper{
+.third-container-wrapper{
   background-color: #E9F1FA;
 }
 
@@ -162,7 +162,7 @@
   }
 
   .head {
-    font-size: 1000%;
+    font-size: 500%;
     font-weight: 200;
     width: 100%;
     height: 90vh;
@@ -171,7 +171,7 @@
     justify-content: center;
   }
 
-  .bio {
+  .second-container {
     width: 90%;
     font-size: 20px;
     margin: 20px auto;
