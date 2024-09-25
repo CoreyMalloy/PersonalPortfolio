@@ -49,6 +49,12 @@ import logoimg17 from './images/tail.png';
               <li className="skill-icon">
                 <img className='html' src={logoimg4}/>
               </li>
+              <li className="skill-icon">
+                  <img className='html' src={logoimg7}/>
+                </li>
+                <li className="skill-icon">
+                  <img className='html' src={logoimg16}/>
+                </li>
             </ul>
             <ul>
             <li className="skill-icon">
@@ -83,18 +89,8 @@ import logoimg17 from './images/tail.png';
                 <li className="skill-icon">
                   <img className='html' src={logoimg9}/>
                 </li>
-              </ul>
-              <ul>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg7}/>
-                </li>
-                <li className="skill-icon">
-                  <img className='html' src={logoimg16}/>
-                </li>
                 <li className="skill-icon">
                   <img className='html' src={logoimg17}/>
-                </li>
-                <li className="skill-icon">
                 </li>
               </ul>
             </div>
