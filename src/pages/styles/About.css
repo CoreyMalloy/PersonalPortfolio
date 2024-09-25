@@ -175,10 +175,11 @@
     width: 100%;
     font-size: 20px;
     margin: 20px auto;
+    height: 5vh
   }
 
   .second-container-description{
-    width: 100%;
+    width: 98%;
     font-size: 1rem;
   }
 
