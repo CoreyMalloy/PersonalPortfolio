@@ -36,9 +36,13 @@
 }
 
 @media (max-width: 480px) {
-    .nav-container {
-      justify-content: left;
-    }
+  .nav-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 2rem;
+}
   
     .nav-item {
       padding: 10px;
