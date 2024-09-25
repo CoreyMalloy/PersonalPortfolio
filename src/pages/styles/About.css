@@ -174,12 +174,12 @@
   .second-container {
     width: 100%;
     font-size: 20px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     height: 50vh
   }
 
   .second-container-description{
-    width: 98%;
+    width: 90%;
     font-size: 1rem;
   }
 
