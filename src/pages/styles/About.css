@@ -103,16 +103,6 @@
     width: 90%;
   }
 
-  .skills-displayed {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .skills-displayed div {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
-
   .left, .right {
     width: 90%;
     margin: 0 auto;
