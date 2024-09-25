@@ -31,7 +31,7 @@
 
 .third-container-wrapper{
   background-color: #E9F1FA;
-  height: 120vh;
+  height: 130vh;
 }
 
 .skills-title {
@@ -103,12 +103,12 @@
     width: 90%;
   }
 
-  .exp {
+  .skills-displayed {
     flex-direction: column;
     height: auto;
   }
 
-  .exp div {
+  .skills-displayed div {
     font-size: 25px;
     margin-bottom: 20px;
   }
