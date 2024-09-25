@@ -174,7 +174,6 @@
   .second-container {
     width: 100%;
     font-size: 20px;
-    /* margin: 20px auto; */
     height: 50vh
   }
 
@@ -187,7 +186,6 @@
     font-size: 40px;
     height: auto;
     width: 90%;
-    margin: 50px auto;
   }
 
   .exp {
