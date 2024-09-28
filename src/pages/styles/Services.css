@@ -1,0 +1,33 @@
+@media (max-width: 480px){
+    .skills-container{
+        height: 150vh;
+    }
+
+    .skills-container-title{
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .skills-container-total-cards{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    /* .skills-container-individual-cards{
+
+    } */
+
+    .individual-card-titles{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .skills-icons-list-top{
+        flex-direction: column;
+    }
+
+    .skills-icons-list-bottom{
+        flex-direction: column;
+    }
+}
