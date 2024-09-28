@@ -38,17 +38,17 @@ const data = [
       {
           icon: logoimg6, 
           icon1: logoimg8,
-          icon2: logoimg11,
-          icon3: logoimg10,
-          icon4: logoimg9,
+          icon3: logoimg11,
+          icon4: logoimg10,
+          icon5: logoimg9,
           title: "Services",
       },
       {
           icon: logoimg4, 
           icon1: logoimg5,
-          icon2: logoimg7,
-          icon3: logoimg16,
-          icon4: logoimg17,
+          icon3: logoimg7,
+          icon4: logoimg16,
+          icon5: logoimg17,
           title: "Tools",
       }
     ]

@@ -15,9 +15,9 @@ const Cards = ({ services }) => {
           }}>
             <h3 className="individual-card-titles" style={{fontSize: '3rem', fontWeight: '200', borderBottom: '2px solid #00ABE4'}}>{item.title}</h3>
             <div className="skills-icon-list-top" style={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', width: '100%'}}>
-              <img src={item.icon} alt={`${item.title} icon`} style={{ width: 'auto', height: '5rem' }} />
-              <img src={item.icon1} alt={`${item.title} icon1`} style={{ width: 'auto', height: '5rem' }} />
-              <img src={item.icon2} alt={`${item.title} icon2`} style={{ width: 'auto', height: '5rem' }} />
+              {item.icon ? (<img src={item.icon} alt={`${item.title} icon`} style={{ width: 'auto', height: '5rem' }} />) : null}
+              {item.icon1 ? (<img src={item.icon1} alt={`${item.title} icon1`} style={{ width: 'auto', height: '5rem' }} />) : null}
+              {item.icon2 ? (<img src={item.icon2} alt={`${item.title} icon2`} style={{ width: 'auto', height: '5rem' }} />) : null}
             </div>
             <div className="skills-icon-list-bottom" style={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', width: '100%'}}>
               {item.icon3 ? (<img src={item.icon3} alt={`${item.title} icon3`} style={{ width: 'auto', height: '5rem' }} />) : null}
