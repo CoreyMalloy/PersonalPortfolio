@@ -1,5 +1,5 @@
 import React from 'react';
-// import services from './components/Services.jsx';
+import Cards from './Services.jsx';
 import './styles/About.css';
 import logoimg from './images/javs.png';
 import logoimg2 from './images/html2.png';
@@ -21,7 +21,45 @@ import logoimg15 from './images/c++.png';
 import logoimg16 from './images/bootstrap.png';
 import logoimg17 from './images/tail.png';
 
- const About = () => {
+const data = [
+  {
+    subheading: "Skills",
+    service:[
+      {
+          icon: logoimg2, 
+          icon1: logoimg13,
+          icon2: logoimg15,
+          icon3: logoimg3,
+          icon4: logoimg12,
+          icon5: logoimg,
+          icon6: logoimg14,
+          title: "Languages",
+      },
+      {
+          icon: logoimg6, 
+          icon1: logoimg8,
+          icon2: logoimg11,
+          icon3: logoimg10,
+          icon4: logoimg9,
+          icon5: logoimg,
+          icon6: logoimg14,
+          title: "Services",
+      },
+      {
+          icon: logoimg2, 
+          icon1: logoimg13,
+          icon2: logoimg15,
+          icon3: logoimg3,
+          icon4: logoimg12,
+          icon5: logoimg,
+          icon6: logoimg14,
+          title: "Tools",
+      }
+    ]
+  }
+]
+
+const About = () => {
   return (
     <>
      <div>
@@ -36,10 +74,12 @@ import logoimg17 from './images/tail.png';
           </div>
         </div>
       </div>
+      <div>
+        <Cards services={data} />
+      </div>
       <div className='third-section-wrapper'>
           <div className='skills'>Skills</div>
           <div className='exp'>
-          {/* <Services /> */}
             <div className='left-skills-list'>
               <div className='title-left'>Languages</div>
               <div className='card-left'>
