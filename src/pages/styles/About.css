@@ -94,8 +94,7 @@
 }
 
 .title-left {
-  margin-bottom: 40px;
-  border-bottom: 2px solid rgb(53, 52, 52);
+  border-bottom: 2px solid #E9F1FA;;
 }
 
 .card-left {
@@ -122,8 +121,7 @@
 }
 
 .title-right {
-  margin-bottom: 40px;
-  border-bottom: 2px solid rgb(53, 52, 52);
+  border-bottom: 2px solid #E9F1FA;;
 }
 
 .card-right {
@@ -171,8 +169,7 @@
 }
 
 .title {
-  margin-bottom: 40px;
-  border-bottom: 2px solid rgb(53, 52, 52);
+  border-bottom: 2px solid #E9F1FA;;
 }
 
 @media (max-width: 480px) {
