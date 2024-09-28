@@ -14,9 +14,9 @@
         width: 90%;
     }
 
-    /* .skills-container-individual-cards{
-
-    } */
+    .skills-container-individual-cards{
+        width: 100%;
+    }
 
     .individual-card-titles{
         font-size: 1rem;
