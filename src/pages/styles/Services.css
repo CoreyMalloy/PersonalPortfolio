@@ -46,11 +46,21 @@
     width: 100%;
 }
 
+.skills-icon-list-top img{
+    width: auto;
+    height: 5rem;
+}
+
 .skills-icon-list-bottom{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.skills-icon-list-bottom img{
+    width: auto;
+    height: 5rem;
 }
 
 @media (max-width: 480px){
