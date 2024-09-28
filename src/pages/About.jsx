@@ -41,18 +41,14 @@ const data = [
           icon2: logoimg11,
           icon3: logoimg10,
           icon4: logoimg9,
-          icon5: logoimg,
-          icon6: logoimg14,
           title: "Services",
       },
       {
-          icon: logoimg2, 
-          icon1: logoimg13,
-          icon2: logoimg15,
-          icon3: logoimg3,
-          icon4: logoimg12,
-          icon5: logoimg,
-          icon6: logoimg14,
+          icon: logoimg4, 
+          icon1: logoimg5,
+          icon2: logoimg7,
+          icon3: logoimg16,
+          icon4: logoimg17,
           title: "Tools",
       }
     ]
@@ -77,7 +73,7 @@ const About = () => {
       <div>
         <Cards services={data} />
       </div>
-      <div className='third-section-wrapper'>
+      {/* <div className='third-section-wrapper'>
           <div className='skills'>Skills</div>
           <div className='exp'>
             <div className='left-skills-list'>
@@ -169,7 +165,7 @@ const About = () => {
               </div>
             </div> 
           </div>
-        </div>
+        </div> */}
      </div>
    </>
   )
