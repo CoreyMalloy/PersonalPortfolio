@@ -59,11 +59,11 @@ const About = () => {
   return (
     <>
      <div>
-      <div class='about-header-container' style={{display:'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%', height: '70vh', paddingBottom:'18vh'}}>
-        <div class='about-header-wrapper' style={{display:'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginLeft: '5rem', marginRight: 'auto', padding: '4rem'}}>
-          <div class='about-header-content'style={{display:'flex',flexDirection: 'column', marginLeft: '5rem'}}>
-            <h1 class='about-header-content-title' style={{fontSize: '4rem', fontWeight: '500'}}>About <span style={{color: '#00ABE4'}}>Me</span></h1>
-            <p class='about-header-content-description' style={{fontSize: '3rem', fontWeight: '300', width: '90%'}}>
+      <div className='about-header-container'>
+        <div className='about-header-wrapper'>
+          <div className='about-header-content'>
+            <h1 className='about-header-content-title'>About <span>Me</span></h1>
+            <p className='about-header-content-description'>
               I graduated with a degree in Computer Science and a Mathematics minor from Cleveland State University.
               Recently I have been expanding my horizon into other aspects of development.
             </p>
