@@ -1,4 +1,5 @@
 import React from 'react';
+// import services from './components/Services.jsx';
 import './styles/About.css';
 import logoimg from './images/javs.png';
 import logoimg2 from './images/html2.png';
@@ -27,25 +28,19 @@ import logoimg17 from './images/tail.png';
       <div className='about-header-container'>
         <div className='about-header-wrapper'>
           <div className='about-header-content'>
-            <h1 className='about-header-content-title'>About Me</h1>
-            <p className='about-header-content-description'>Another description maybe a little more in depth</p>
+            <h1 className='about-header-content-title'>About <span>Me</span></h1>
+            <p className='about-header-content-description'>
+              I graduated with a degree in Computer Science and a Mathematics minor from Cleveland State University.
+              Recently I have been expanding my horizon into other aspects of development.
+            </p>
           </div>
         </div>
-        </div>
-        <div className='about-description-container'>
-          <div className='bio-description'>
-            I am an aspiring developer with a degree in Computer science and a minor in Mathematics from Cleveland State University.
-            I have previous professional experience in web development.
-            My academic journey equipped me with a multitude of skills within software development.
-            Recently I have been trying to expand my horizon into other aspects of development.
-          </div>
-        </div>
-      
+      </div>
       <div className='third-section-wrapper'>
           <div className='skills'>Skills</div>
           <div className='exp'>
-          
-            <div className='left'>
+          {/* <Services /> */}
+            <div className='left-skills-list'>
               <div className='title-left'>Languages</div>
               <div className='card-left'>
                 <ul>
@@ -77,7 +72,7 @@ import logoimg17 from './images/tail.png';
                 </ul>
               </div>
             </div>
-            <div className='right'>
+            <div className='middle-skills-list'>
               <div className='title-right'>Services</div>
               <div className='card-right'>
               <ul>
@@ -104,39 +99,37 @@ import logoimg17 from './images/tail.png';
                   </li>
                 </ul>
               </div> 
+            </div>
+            <div className='right-skills-list'>
+              <div className='title'>Tools</div>
+              <div className='list'>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg4}/>
+                  </li>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg5}/>
+                  </li>
+                </ul>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg7}/>
+                  </li>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg16}/>
+                  </li>
+                </ul>
+                <ul>
+                  <li className="skill-icon">
+                    <img className='html' src={logoimg17}/>
+                  </li>
+                  <li className="skill-icon">
+                  </li>
+                </ul>
+              </div>
             </div> 
           </div>
-          <div className='cont'>
-            <div className='lang'>
-                  <div className='title'>Libraries/Frameworks</div>
-                  <div className='list'>
-                    <ul>
-                      <li className="skill-icon">
-                        <img className='html' src={logoimg4}/>
-                      </li>
-                      <li className="skill-icon">
-                        <img className='html' src={logoimg5}/>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li className="skill-icon">
-                        <img className='html' src={logoimg7}/>
-                      </li>
-                      <li className="skill-icon">
-                        <img className='html' src={logoimg16}/>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li className="skill-icon">
-                        <img className='html' src={logoimg17}/>
-                      </li>
-                      <li className="skill-icon">
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-          </div>
+        </div>
      </div>
    </>
   )
