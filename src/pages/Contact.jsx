@@ -3,13 +3,10 @@ import './styles/Contact.css';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-  let name = "corey";
-  let message ="connor";
   
   const click = () => {
     name = document.getElementById("name").value
     message = document.getElementById("message").value
-    // alert(name.value + message.value)
   }
 
   const sendEmail = (e) => {
@@ -20,8 +17,8 @@ function Contact() {
   return (
     <>
       <div className='container'>
-        <div className='header'>
-          <h1>Contact Me</h1>
+        <div className='contact-header'>
+          <h5>Contact Me</h5>
         </div>
         <div className='name'>
           <label htmlFor="name"></label>
