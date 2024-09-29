@@ -85,8 +85,8 @@
     }
 
     .individual-card-titles{
-        font-size: 1rem;
-        font-weight: 100;
+        font-size: 2rem;
+        font-weight: 200;
     }
 
     .skills-icon-list-top{
@@ -99,6 +99,7 @@
 
     .skills-icon-list-bottom{
         width: 90%;
+        padding-bottom: 2rem;
     }
 
     .skills-icon-list-bottom img{
