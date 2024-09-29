@@ -65,7 +65,7 @@
 
 @media (max-width: 480px){
     .skills-container{
-        height: 150vh;
+        height: 200vh;
     }
 
     .skills-container-title{
@@ -82,6 +82,7 @@
 
     .skills-container-individual-cards{
         width: 100%;
+        padding-bottom: 2rem;
     }
 
     .individual-card-titles{

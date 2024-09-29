@@ -48,7 +48,7 @@
 
 @media (max-width: 480px) {
   .about-header-container{
-    height: 100vh;
+    height: 75vh;
     padding-bottom: 0;
   }
 
