@@ -52,24 +52,28 @@
     padding-bottom: 0;
   }
 
-  .about-header-wrapper {
-    width: 100%;
-    margin-left: 1rem;
-    margin-right: 0;
-    padding: 0;
+  .about-header-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
   }
 
-  .about-header-content{
+  /* .about-header-content{
     margin-left: 0;
-  }
+  } */
 
   .about-header-content-title{
-    font-size: 3rem;
-    font-weight: 300
+    font-size: 2rem;
+    font-weight: 800;
+    width: 100%;
   }
 
   .about-header-content-description{
-      font-size: 2rem;
-      font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 400;
     }
 }
