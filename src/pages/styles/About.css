@@ -65,6 +65,8 @@
 
   .about-header-content{
     margin-left: 0;
+    align-items: start;
+    margin-top: 4rem;
   }
 
   .about-header-content-title{
