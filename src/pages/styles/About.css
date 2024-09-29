@@ -48,14 +48,7 @@
 
 @media (max-width: 480px) {
   .about-header-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    padding-top: 0;
-    align-items: start;
-    flex-direction: column;
-    width: 100%;
-    height: 85vh;
+    height: 75vh;
     padding-bottom: 0;
   }
 
