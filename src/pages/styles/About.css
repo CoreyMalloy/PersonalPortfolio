@@ -50,6 +50,7 @@
   .about-header-container{
     height: 90vh;
     padding-bottom: 0;
+    width: 98%;
   }
 
   .about-header-wrapper{
@@ -61,10 +62,6 @@
     margin-right: auto;
     padding: 2rem;
   }
-
-  /* .about-header-content{
-    margin-left: 0;
-  } */
 
   .about-header-content-title{
     font-size: 2rem;
