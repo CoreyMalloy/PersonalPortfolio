@@ -42,8 +42,7 @@
     justify-content: left;
     align-items: center;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     padding: 0;
 }
   
@@ -52,8 +51,4 @@
     font-size: 20px;
     margin-right: .5rem;
   }
-  
-  .nav-item:last-of-type {
-    margin-right: 15px;
-  }
-  }
+}
