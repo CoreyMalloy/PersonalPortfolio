@@ -19,7 +19,7 @@ const Cards = ({ services }) => {
               {item.icon3 ? (<img src={item.icon3} alt={`${item.title} icon3`}/>) : null}
               {item.icon4 ? (<img src={item.icon4} alt={`${item.title} icon4`}/>) : null}
               {item.icon5 ? (<img src={item.icon5} alt={`${item.title} icon5`}/>) : null}
-              {item.icon6 ? (<img src={item.icon6} alt={`${item.title} icon6`} style={{ width: 'auto', height: '5rem' }} />) : null}
+              {item.icon6 ? (<img src={item.icon6} alt={`${item.title} icon6`}/>) : null}
             </div>
           </div>
         ))}

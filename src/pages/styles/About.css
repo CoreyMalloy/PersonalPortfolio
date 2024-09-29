@@ -64,12 +64,12 @@
   }
 
   .about-header-content-title{
-    font-size: 5px;
-    font-weight: 200
+    font-size: 3rem;
+    font-weight: 300
   }
 
   .about-header-content-description{
-      font-size: 5px;
-      font-weight: 100;
+      font-size: 2rem;
+      font-weight: 200;
     }
 }
