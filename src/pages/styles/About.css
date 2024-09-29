@@ -50,7 +50,7 @@
   .about-header-container{
     height: 93vh;
     padding-bottom: 0;
-    align-items: start;
+    justify-content: start;
     margin-top: 4rem;
   }
 
@@ -59,13 +59,13 @@
     margin-left: 1rem;
     margin-right: 0;
     padding: 0;
-    align-items: start;
+    justify-content: start;
     margin-top: 4rem;
   }
 
   .about-header-content{
     margin-left: 0;
-    align-items: start;
+    justify-content: start;
     margin-top: 4rem;
   }
 
