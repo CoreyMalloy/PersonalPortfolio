@@ -48,29 +48,28 @@
 
 @media (max-width: 480px) {
   .about-header-container{
-    height: 90vh;
+    height: 93vh;
     padding-bottom: 0;
-    width: 98%;
   }
 
-  .about-header-wrapper{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
+  .about-header-wrapper {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .about-header-content{
+    margin-left: 0;
   }
 
   .about-header-content-title{
-    font-size: 2rem;
-    font-weight: 800;
-    width: 100%;
+    font-size: 3rem;
+    font-weight: 300
   }
 
   .about-header-content-description{
-    font-size: 1.5rem;
-    font-weight: 400;
+      font-size: 2rem;
+      font-weight: 200;
     }
 }
