@@ -22,7 +22,6 @@
 
 .name{
     min-height: 50px;
-    width: 550px;
     align-items: center;
     justify-content: center;
 }
@@ -36,7 +35,6 @@
 .message{
     display: flex;
     min-height: 200px;
-    width: 550px;
     align-items: center;
     justify-content: center;
 }
@@ -95,7 +93,7 @@
   
     .name input {
       font-size: 20px;
-      width: 80%;
+      width: 90%;
     }
   
     .message {
