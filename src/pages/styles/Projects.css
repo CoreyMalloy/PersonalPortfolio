@@ -32,7 +32,6 @@
   .proj img{
     width: 400px;
     height: 200px;
-    border: 2px solid red;
   }
 
   .proj button{
@@ -59,7 +58,9 @@
   
     .proj-list li {
       margin-bottom: 20px;
-      width: 80%;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .proj img {
