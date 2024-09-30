@@ -2,19 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 15rem;
   font-size: 4rem;
   font-weight: 500;
+  margin-top: 5rem;
 }
 
 .proj-list{
     display:flex;
+    flex-direction: row;
     justify-content: space-evenly;
     height: 70vh;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
   }
   
   .proj-list li{
@@ -26,7 +26,6 @@
   }
 
   .proj h2{
-    margin-top: 20px;
     font-weight: 200;
   }
 
@@ -43,14 +42,13 @@
   .proj button:hover{
     cursor: pointer;
     opacity: .5;
-    background-color: black;
   }
 
   @media (max-width: 480px) {
     .proj-list {
       flex-direction: column;
       width: 90%;
-      height: auto;
+      height: 100vh;
       margin-bottom: 30px;
     }
   
@@ -60,7 +58,7 @@
   
     .proj img {
       width: 100%;
-      height: 200px;
+      height: auto;
       object-fit: cover;
     }
   }
