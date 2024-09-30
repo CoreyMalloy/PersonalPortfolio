@@ -89,6 +89,7 @@
   
     .name {
       min-height: 30px;
+      padding: .5rem;
     }
   
     .name input {
@@ -98,7 +99,7 @@
   
     .message {
       min-height: 150px;
-      padding: 10px;
+      padding: .5rem;
     }
   
     .message textarea {
