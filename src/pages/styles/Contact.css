@@ -13,6 +13,12 @@
   color: #00ABE4;
 }
 
+.info-boxes-container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .name{
     min-height: 50px;
     align-items: center;
