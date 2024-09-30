@@ -30,7 +30,7 @@
     width: 30%;
     height: 60vh;
     background-color: #E9F1FA;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 
 .individual-card-titles{
@@ -56,6 +56,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 .skills-icon-list-bottom img{
