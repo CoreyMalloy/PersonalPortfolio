@@ -32,6 +32,7 @@
   .proj img{
     width: 400px;
     height: 200px;
+    border: 2px solid red;
   }
 
   .proj button{
@@ -45,6 +46,10 @@
   }
 
   @media (max-width: 480px) {
+    .project-head{
+      margin-bottom: 2rem;
+    }
+
     .proj-list {
       flex-direction: column;
       width: 90%;
