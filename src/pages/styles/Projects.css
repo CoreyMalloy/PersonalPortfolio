@@ -47,7 +47,7 @@
 
   @media (max-width: 480px) {
     .project-head{
-      margin-bottom: 2rem;
+      margin-bottom: 5rem;
     }
 
     .proj-list {
@@ -59,6 +59,7 @@
   
     .proj-list li {
       margin-bottom: 20px;
+      width: 80%;
     }
   
     .proj img {
