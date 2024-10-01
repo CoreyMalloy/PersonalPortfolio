@@ -111,7 +111,10 @@
 
     .firstText{
         left: 1rem;
-        bottom: 5rem;
+        bottom: 2rem;
+        font-size: 1rem;
+        width: 90%;
+        height: 20%;
     }
 
     .skills-container-title{
