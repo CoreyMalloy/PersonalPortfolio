@@ -110,10 +110,10 @@
     }
 
     .firstText{
-        left: 1rem;
-        bottom: -55rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
         font-size: 1rem;
-        width: 75%;
+        width: 85%;
         height: 20%;
     }
 
