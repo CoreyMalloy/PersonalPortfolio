@@ -3,19 +3,8 @@ import './styles/Contact.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  let name = "corey";
-  let message ="connor";
-  
-  // const click = () => {
-  //   name = document.getElementById("name").value
-  //   message = document.getElementById("message").value
-  //   // alert(name.value + message.value)
-  // }
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm('service_tu2qzbr', 'template_id', e.target, 'public_key');
-  // }
+  let name = "name";
+  let message ="message";
    
   return (
     <>
