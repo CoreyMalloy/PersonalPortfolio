@@ -109,6 +109,11 @@
         height: 230vh;
     }
 
+    .firstText{
+        left: 1rem;
+        bottom: 5rem;
+    }
+
     .skills-container-title{
         font-size: 3rem;
         font-weight: 300;
