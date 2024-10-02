@@ -110,11 +110,11 @@
     }
 
     .firstText{
-        left: 1rem;
-        bottom: 5rem;
+        left: .80rem;
+        bottom: 15rem;
         font-size: 1rem;
         width: 75%;
-        height: 20%;
+        height: 50%;
     }
 
     .skills-container-title{
